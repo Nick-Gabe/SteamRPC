@@ -1,0 +1,21 @@
+{
+  "name": "steampresence",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Nícolas Gabriel",
+    "email": "nicolasgabrielctt@gmail.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cron": "^1.8.2",
+    "discord-rpc": "^4.0.1",
+    "dotenv": "^10.0.0"
+  }
+}
