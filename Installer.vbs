@@ -6,7 +6,7 @@ title = "Steam Presence Installer"
 response = msgbox(msg, style, title)
 if response = vbYes then
     Dim yes_cmd
-    yes_cmd = "script\install.bat"
+    yes_cmd = "steampresence\script\install.bat"
     Set WshShell = WScript.CreateObject("WScript.Shell") 
     WshShell.Run yes_cmd, 1, true
     answer = msgbox("Program installed successfully.", vbOkOnly + vbInformation, title)
@@ -16,7 +16,7 @@ if response = vbYes then
     Set ScndShell = Nothing 
 elseif response = vbNo then
     Dim no_cmd
-    no_cmd = "script\uninstall.bat"
+    no_cmd = "steampresence\script\uninstall.bat"
     Set WshShell = WScript.CreateObject("WScript.Shell") 
     WshShell.Run no_cmd, 1, true
     Set WshShell = Nothing

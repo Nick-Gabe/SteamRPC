@@ -18,7 +18,7 @@ presence.on('ready', () => {
             if (date === null) {
                 date = new Date()
             }
-            return { info: info[0], hours: gameinfo.playtime_forever / 60 + minutes_elapsed / 100}
+            return { info: info[0], hours: gameinfo.playtime_forever / 60 + minutes_elapsed / 60}
         } else if (date != null) {
             presence.clearActivity()
             date = null

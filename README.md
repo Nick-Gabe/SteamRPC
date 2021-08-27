@@ -43,7 +43,7 @@ information than the usual. But there are some limits the program cannot surpass
 By using manually, I mean you'll have to execute the file to run Steam Presence, instead of it starting automatically. To do so,
 you just need to follow these steps:
 1. Decompress this repository in any folder you'd like.
-2. Read [Before Installing.txt](https://github.com/Nick-Gabe/SteamPresence/Before-Installing.txt)
+2. Read [Before Installing.txt](https://github.com/Nick-Gabe/SteamPresence/blob/main/Before%20Installing.txt)
 3. After changing the variables, you can run the file "SteamPresence.vbs" once and it should start running.
 4. (Optional) You can create a shortcut if you want to.
 
@@ -51,7 +51,7 @@ you just need to follow these steps:
 If you want the program to start running when you turn on your pc, so you don't have to open it everytime, follow these steps:
 1. Open the Installer
 2. Done! Now the program will start with your computer.
-##### _You can always uninstall or disable through the msconfig._
+##### _You can always uninstall or disable through msconfig._
 
 ## Credits
 Hey, im [Nick Gabe](https://github.com/Nick-Gabe], the creator of this repository. And if you'd like to contribute to this
