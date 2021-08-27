@@ -1,9 +1,8 @@
-Before installing or using the program,
-open the file "environment" inside the
-scripts folder and change the values
-"YOUR_STEAM_ID" to the ID of your Steam
-account, and the "STEAM_API_KEY" to the
-key you get from this site:
+Before installing or using the program, open the
+file "environment" inside the steampresence/scripts
+folder and change the values "YOUR_STEAM_ID" to the
+ID of your Steam account, and the "STEAM_API_KEY"
+to the key you get from this site:
 https://steamcommunity.com/dev/apikey
 
 (When changing the values, don't remove the "")
