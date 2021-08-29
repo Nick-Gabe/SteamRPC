@@ -1,8 +1,10 @@
 <p align="center"><img src="https://i.imgur.com/UMZhErc.png" alt="SteamPresence" width="500" /></p>
 <p align="center">
-<img src="https://img.shields.io/github/repo-size/Nick-Gabe/SteamPresence" alt="filesize"/>
-<img src="https://img.shields.io/github/license/Nick-Gabe/SteamPresence?style=flat-square" alt="license"/>
+<img src="https://img.shields.io/github/repo-size/Nick-Gabe/SteamPresence?style=flat-square" alt="filesize"/>
+<img src="https://img.shields.io/github/license/Nick-Gabe/SteamPresence.svg?style=flat-square" alt="license"/>
 <img src="https://img.shields.io/github/stars/Nick-Gabe/SteamPresence?style=flat-square" alt="stars"/>
+<img src="https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white" alt="nodejs"/>
+<img src="https://img.shields.io/github/issues/Nick-Gabe/SteamPresence.svg?style=flat-square&color=" alt="issues"/>
 </p>
  
 ### <p align="center">This repository isn't associated with Steam or Valve Corp.</p>
@@ -54,6 +56,6 @@ If you want the program to start running when you turn on your pc, so you don't 
 ##### _You can always uninstall or disable through msconfig._
 
 ## Credits
-Hey, im [Nick Gabe](https://github.com/Nick-Gabe], the creator of this repository. And if you'd like to contribute to this
+Hey, im [Nick Gabe](https://github.com/Nick-Gabe), the creator of this repository. And if you'd like to contribute to this
 project, feel free to create a pull request with your changes. If you find any error or bug, post it on the Issues tab and I'll look into fixing it.
 * Liked the idea of the project? Put a star on this project :D
