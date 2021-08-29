@@ -31,12 +31,12 @@ if '%errorlevel%' NEQ '0' (
 title "Steam Presence Installer (Windows)"
 cls
 set thisfolder=%~dp0%
-copy %thisfolder%SteamPresence_start.vbs "c:\Documents And Settings\All Users\Start Menu\Programs\Startup" 
+copy "%thisfolder%SteamPresence_start.vbs" "c:\Documents And Settings\All Users\Start Menu\Programs\Startup" 
 cd "c:\program files"
 if not exist "SteamPresence" mkdir "SteamPresence"
 cd %thisfolder%
 cd ..
 cd ..
 set prefolder=%cd%
-xcopy %prefolder%\steampresence "c:\program files\SteamPresence" /s /y /r /c /e
+xcopy "%prefolder%\steampresence" "c:\program files\SteamPresence" /s /y /r /c /e
 echo Installation done

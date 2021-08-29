@@ -11,7 +11,7 @@ if response = vbYes then
     WshShell.Run yes_cmd, 1, true
     answer = msgbox("Program installed successfully.", vbOkOnly + vbInformation, title)
     Set WshShell = Nothing
-    Set ScndShell = CreateObject("WScript.Shell") 
+    Set ScndShell = WScript.CreateObject("WScript.Shell") 
     ScndShell.Run chr(34) & "c:/Program Files/SteamPresence/script/execute.bat" & Chr(34), 0 
     Set ScndShell = Nothing 
 elseif response = vbNo then
