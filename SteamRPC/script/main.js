@@ -22,7 +22,7 @@ presence.on('ready', () => {
                 if (gameinfo === undefined) return false
                 response.hours = gameinfo.playtime_forever / 60 + minutes_elapsed / 60
             }
-            if (SHOW_ACHIEVEMENTS_PERCENTAGE) {
+            if (SHOW_ACHIEVEMENTS) {
                 const achievements = await getAchievements(YOUR_STEAM_ID, info[0].gameid)
                 response.achievements = achievements
             }
@@ -54,11 +54,9 @@ presence.on('ready', () => {
                     ]
                 }
 
-                // if (SHOW_HOURS && SHOW_ACHIEVEMENTS_PERCENTAGE) rpc_object.state = `${response.hours.toFixed(1)}h | ${((response.achievements.achieved / response.achievements.total) * 100).toFixed(0)}%`
-                if (SHOW_HOURS && SHOW_ACHIEVEMENTS_PERCENTAGE) rpc_object.state = `🎮 ${response.hours.toFixed(1)}h | 🏆 ${response.achievements.achieved+'/'+response.achievements.total}`
+                if (SHOW_HOURS && SHOW_ACHIEVEMENTS) rpc_object.state = `🎮 ${response.hours.toFixed(1)}h | 🏆 ${response.achievements.achieved+'/'+response.achievements.total}`
                 else if (SHOW_HOURS) rpc_object.state = `🎮 ${response.hours.toFixed(1)}h`
-                // else if (SHOW_ACHIEVEMENTS_PERCENTAGE) rpc_object.state = `${((response.achievements.achieved / response.achievements.total) * 100).toFixed(0)}%`
-                else if (SHOW_ACHIEVEMENTS_PERCENTAGE) rpc_object.state = `🏆 ${response.achievements.achieved+'/'+response.achievements.total}`
+                else if (SHOW_ACHIEVEMENTS) rpc_object.state = `🏆 ${response.achievements.achieved+'/'+response.achievements.total}`
                 presence.setActivity(rpc_object)
             }
         })
