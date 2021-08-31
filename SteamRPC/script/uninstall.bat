@@ -27,8 +27,9 @@ if '%errorlevel%' NEQ '0' (
     pushd "%CD%"
     CD /D "%~dp0"
 :-------------------------------------- 
-title "Steam Presence Uninstaller (Windows)"
+title "SteamRPC Uninstaller (Windows)"
 cls
-if exist "c:\program files\SteamPresence" RMDIR /S /Q "c:\program files\SteamPresence"
+if exist "c:\program files\SteamRPC" RMDIR /S /Q "c:\program files\SteamRPC"
 cd "C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
-if exist SteamPresence_start.vbs del SteamPresence_start.vbs
+if exist SteamRPC_start.vbs del SteamRPC_start.vbs
+taskkill /f /im "node.exe"

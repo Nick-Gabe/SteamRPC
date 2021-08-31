@@ -26,4 +26,19 @@ module.exports = {
         })
         return response.data.response.players
     },
+
+    async getAchievements(id, gameid) {
+        var response = await axios.get(' http://api.steampowered.com/ISteamUserStats/GetPlayerAchievements/v0001', {
+            params: {
+                key: STEAM_API_KEY,
+                steamid: id,
+                appid: gameid,
+            }
+        }).catch(error => {
+            console.log(error)
+        })
+        var total_achievements = response.data.playerstats.achievements
+        var achieved = total_achievements.filter(x => x.achieved === 1).length
+        return {total: total_achievements.length, achieved}
+    },
 }

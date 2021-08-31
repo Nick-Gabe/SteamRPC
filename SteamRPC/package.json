@@ -1,5 +1,5 @@
 {
-  "name": "steampresence",
+  "name": "steamrpc",
   "version": "1.0.0",
   "description": "A Discord Rich Presence for Steam games.",
   "main": "script/main.js",

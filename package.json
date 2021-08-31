@@ -1,8 +1,8 @@
 {
-  "name": "steampresence",
-  "version": "1.0.0",
+  "name": "steamrpc",
+  "version": "1.1.0",
   "description": "A Discord Rich Presence for Steam games.",
-  "main": "steampresence/script/main.js",
+  "main": "steamrpc/script/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

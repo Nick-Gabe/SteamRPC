@@ -1,9 +1,13 @@
 Before installing or using the program,
 open the file "environment" inside the
-scripts folder and change the values
+steamRPC folder and change the value
 "YOUR_STEAM_ID" to the ID of your Steam
-account, and the "STEAM_API_KEY" to the
-key you get from this site:
+account(To get your ID, go to your Steam
+Client, click your photo and choose "Account
+Details", your ID will appear below the Title).
+
+And also change the "STEAM_API_KEY"
+to the key you get from this site:
 https://steamcommunity.com/dev/apikey
 
 (When changing the values, don't remove the "")
