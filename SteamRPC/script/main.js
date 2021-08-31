@@ -3,7 +3,7 @@ const presence = new rpc.Client({
     transport: "ipc"
 })
 const { getPlayerInfo, getRecentlyPlayed, getAchievements } = require('./functions')
-const { APPLICATION_ID, YOUR_STEAM_ID, SHOW_HOURS, BLACKLIST, SHOW_ACHIEVEMENTS_PERCENTAGE } = require('../environment')
+const { APPLICATION_ID, YOUR_STEAM_ID, SHOW_HOURS, BLACKLIST, SHOW_ACHIEVEMENTS } = require('../environment')
 var date = null
 var minutes_elapsed = -1
 
