@@ -32,6 +32,7 @@ title "SteamRPC Installer (Windows)"
 cls
 set thisfolder=%~dp0%
 copy "%thisfolder%SteamRPC_start.vbs" "c:\Documents And Settings\All Users\Start Menu\Programs\Startup" 
+copy "%thisfolder%SteamRPC_start.vbs" "C:\Users\Nicolas\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup" 
 cd "c:\program files"
 if not exist "SteamRPC" mkdir "SteamRPC"
 cd %thisfolder%
