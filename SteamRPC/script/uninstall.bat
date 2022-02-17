@@ -32,4 +32,6 @@ cls
 if exist "c:\program files\SteamRPC" RMDIR /S /Q "c:\program files\SteamRPC"
 cd "C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
 if exist SteamRPC_start.vbs del SteamRPC_start.vbs
+cd "C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+if exist SteamRPC_start.vbs del SteamRPC_start.vbs
 taskkill /f /im "node.exe"

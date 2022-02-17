@@ -11,6 +11,7 @@ module.exports = {
         }).catch(error => {
             console.log(error)
         })
+        console.log(response)
         var game = response.data.response.games.find(x => x.appid == gameid)
         return game
     },
@@ -42,3 +43,6 @@ module.exports = {
         return {total: total_achievements.length, achieved}
     },
 }
+
+const {getPlayerInfo} = require('./functions')
+getPlayerInfo(76561198812181207)
